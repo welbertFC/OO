@@ -22,7 +22,7 @@ class Conta:
 
 
     def sacar(self, extrair):
-        self.valordesaque = self.__limite + self.__saldo
+
         if(self.__pode_sacar(extrair)):
             self.__saldo -= extrair
         else:
